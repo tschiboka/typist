@@ -1,0 +1,16 @@
+@import "../../constants/constants.scss";
+
+.TextInput {
+    width: 85%;
+    height: 100%;
+}
+
+.TextInput.dark {
+    background-color: $elements--main--dark;
+    color: $text--main--dark;
+}
+
+.TextInput.light {
+    background-color: $elements--main--light;
+    color: $text--main--light;
+}

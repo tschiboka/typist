@@ -1,5 +1,11 @@
 @import "./constants/constants.scss";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {  
   width: 100vw;
   height: 100vh; 
@@ -13,5 +19,11 @@
 .App.light {
   background-color: $elements--main--light;
   color: $text--main--light;
+}
+
+.Footer {
+  height: 10vh;
+  width: 100%;
+  border-top: 1px solid $helpers--grey--light;
 }
 

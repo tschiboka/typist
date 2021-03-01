@@ -1,0 +1,16 @@
+@import "../../constants/constants.scss";
+
+.MainMenu {
+    width: 15%;
+    border-left: 1px solid $helpers--grey--light;
+    li {
+        list-style: none;
+        font-size: 24px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            cursor: pointer;
+        }
+    }
+}
